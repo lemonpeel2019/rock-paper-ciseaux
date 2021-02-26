@@ -1,5 +1,3 @@
-
-
 var person = prompt("Please enter your name", "");
   if (person != null) {
       console.log("Hello" + " " +person + " Bienvenue"); }
@@ -31,6 +29,7 @@ if (computerchoice <0.34) {
     // check point
     console.log(userchoice);
     console.log(computerchoice);
+    //rock
     if(choice1 === "rock") {
         if(choice2 === "scissors") {
             return "rock wins";
@@ -43,5 +42,24 @@ if (computerchoice <0.34) {
              // check point
              console.log(userchoice);
              console.log(computerchoice)
+             //paper
+             if(choice1 === "paper") {
+                if(choice2 === "rock") {
+                    return "paper wins";
+           
+                }
+                else {
+                    return "scissors wins";
+                }
+            }
+                     // check point
+                     console.log(userchoice);
+                     console.log(computerchoice)
 }
+
+
+    
+
+    
+
 alert(compare(userchoice, computerchoice));
