@@ -20,3 +20,17 @@ if (computerchoice <0.34) {
         computerchoice = "scissors";
     }
     console.log(computerchoice);
+
+// var change to choice 1 & 2
+
+    // compare choices
+    var compare = function(choice1, choice2) {
+        if(choice1 === choice2) {
+        return "The result is a tie!";
+    } else {
+        return "not a tie";
+        
+    }
+    
+}
+alert(compare(userchoice, computerchoice));
