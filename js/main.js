@@ -27,10 +27,21 @@ if (computerchoice <0.34) {
     var compare = function(choice1, choice2) {
         if(choice1 === choice2) {
         return "The result is a tie!";
-    } else {
-        return "not a tie";
-        
+    } 
+    // check point
+    console.log(userchoice);
+    console.log(computerchoice);
+    if(choice1 === "rock") {
+        if(choice2 === "scissors") {
+            return "rock wins";
+   
+        }
+        else {
+            return "paper wins";
+        }
     }
-    
+             // check point
+             console.log(userchoice);
+             console.log(computerchoice)
 }
 alert(compare(userchoice, computerchoice));
