@@ -55,6 +55,19 @@ if (computerchoice <0.34) {
                      // check point
                      console.log(userchoice);
                      console.log(computerchoice)
+                     // scissors
+                     if(choice1 === "scissors") {
+                        if(choice2 === "rock") {
+                            return "rock wins";
+                   
+                        }
+                        else {
+                            return "scissors wins";
+                        }
+                    }
+                             // check point
+                             console.log(userchoice);
+                             console.log(computerchoice)
 }
 
 
